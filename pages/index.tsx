@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css"
 import { FormEvent, useState, useContext } from "react"
-import { AuthContext } from "../Contexts/AuthContext";
+import { AuthContext } from "../contexts/AuthContext";
 import {parseCookies} from "nookies"
 import { GetServerSideProps } from "next";
 import { withSSRGuest } from "../utils/withSSRGuest";
